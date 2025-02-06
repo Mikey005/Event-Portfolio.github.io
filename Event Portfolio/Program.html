@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Michael Ramlackhan - Program</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .program-container {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .program-container img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Back to Home Button */
+        .back-btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 12px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #575757;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .program-container img {
+                width: 90%; /* Reduce image width on smaller screens */
+            }
+
+            .back-btn {
+                width: 90%; /* Make button larger on mobile */
+                padding: 15px;
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            .program-container img {
+                width: 100%; /* Full-width image for extra small screens */
+            }
+
+            .back-btn {
+                padding: 18px; /* Larger button padding for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Event Program</h1>
+
+    <div class="program-container">
+        <img src="images/Program.png" alt="Event Program">
+    </div>
+
+    <a href="Home.html" class="back-btn">⬅ Back to Home</a>
+
+</body>
+</html>

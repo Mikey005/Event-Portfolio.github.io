@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Michael Ramlackhan - Events Management</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Michael Ramlackhan's Portfolio - Events Management 2025">
+    <meta name="author" content="Michael Ramlackhan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Horizontal Navbar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            padding: 14px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #f4f4f4;
+            margin-bottom: 20px;
+        }
+
+        /* Section Styles */
+        .section-container {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Photo Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .gallery-item {
+            width: 300px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #575757;
+        }
+
+        /* Budget & Program Images - Same Size as Gallery */
+        #budget img, #Program img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar li {
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+            }
+
+            .gallery {
+                flex-direction: column;
+            }
+
+            .gallery-item {
+                width: 90%;
+            }
+
+            .section-container {
+                padding: 15px;
+                margin: 10px;
+            }
+
+            .btn {
+                width: 80%;
+                padding: 12px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#photos"> Photos</a></li>
+            <li><a href="#budget"> Budget</a></li>
+            <li><a href="#Program"> Program</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        
+        <header id="home">
+            <h1>Ministry of Sports and Community Development</h1>
+            <h2>Events Management 2025</h2>
+        </header>
+
+        <div class="section-container">
+            <section class="event-details">
+                <h3>January 14th, 2025 - February 13th, 2025</h3>
+                <h2>Instructors:</h2>
+                <p><strong>Dexter Mitchell</strong></p>
+                <p><strong>Mr. Terrence John</strong></p>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section id="photos">
+                <h2>Event Photos</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/Pic 3.jpg" alt="Event Photo 1">
+                        <p>Great Grandmother</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Pic 4.jpg" alt="Event Photo 2">
+                        <p>Cake</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Pic 14.jpg" alt="Event Photo 3">
+                        <p>Barbecue Chicken</p>
+                    </div>
+                </div>
+                <a href="Photos.html" class="btn"> More Photos</a>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section id="budget">
+                <h2> Event Budget</h2>
+                <img src="images/Budget.png" alt="Budget">
+                <a href="Budget.html" class="btn"> Budget</a>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section id="Program">
+                <h2> Program</h2>
+                <img src="images/Program.png" alt="Program">
+                <a href="Program.html" class="btn"> Program</a>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+</html>
